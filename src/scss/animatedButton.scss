@@ -1,0 +1,28 @@
+.ekoButton {
+    // idle
+    .btn {
+        color: white;
+        background-color: red;
+        opacity: 0.7;
+    }
+
+    // hover
+    .btn:hover {
+        opacity: 1;
+    }
+
+    // selected
+    &.disabled.selected {
+        .btn {
+            background-color: green;
+        }
+    }
+
+    // not selected
+    &.disabled {
+        .btn {
+            opacity: 0.4;
+            background-color: black;
+        }
+    }
+}
