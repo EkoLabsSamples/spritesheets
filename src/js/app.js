@@ -1,6 +1,7 @@
 import playerOptions from '../config/playerOptions.json';
 import animatedButton from './animatedButton';
 
+
 export default {
     onLoad: function(ctx) { },
 
