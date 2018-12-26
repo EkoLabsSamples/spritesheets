@@ -1,11 +1,7 @@
 import EkoUIComponents from 'EkoUIComponents';
-import '../scss/animatedButton.scss';
+import '../scss/spritesheetButton.scss';
 
-export default class AnimatedButton extends EkoUIComponents.EkoDecisionButton {
-    clickHandler() {
-        console.log('woohoo!');
-    }
-
+export default class SpritesheetButton extends EkoUIComponents.EkoDecisionButton {
     getContent() {
         return (
             <button className="btn">
