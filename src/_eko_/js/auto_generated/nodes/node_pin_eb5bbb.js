@@ -4,7 +4,7 @@ export default {
     source: ivds.vid_video_pin_8935f2,
     data: {
                     insights: {
-                uid: 'd32e4b60-08ff-11e9-af25-13bebeecc463'
+                uid: '5c2381df-360c-4340-8022-46a4f36892c6'
                             },
                             decision: {
                 startTime: 7.725,

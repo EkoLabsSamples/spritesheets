@@ -4,21 +4,21 @@ export default {
     source: ivds.vid_video_start_e09622,
     data: {
                     insights: {
-                uid: 'ce61c4a1-08fe-11e9-af25-13bebeecc463'
+                uid: '5c2381df-4170-4513-82ef-46a4f36892c6'
                             },
                             decision: {
                 startTime: 14.493,
                  
                     endTime: 25.417,
                                 children: [
-                                    'node_hat_ad9e9b'
+                                    'node_pin_eb5bbb'
+                     ,                                     'node_hat_ad9e9b'
                      ,                                     'node_scar_099403'
-                     ,                                     'node_pin_eb5bbb'
                                                     ],
                 defaults: [
-                                    'node_hat_ad9e9b'
+                                    'node_pin_eb5bbb'
+                     ,                                     'node_hat_ad9e9b'
                      ,                                     'node_scar_099403'
-                     ,                                     'node_pin_eb5bbb'
                                                     ],
                 _channelsDefaults: [
                                 ]
