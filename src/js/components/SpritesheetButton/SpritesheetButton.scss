@@ -1,31 +1,36 @@
 .ekoButton {
     // idle
-    .btn {
+    .spritesheetBtn {
         width: 55.5px;
         height: 64px;
         border: none;
-        background-image: url('../assets/spritesheet.png');
+        background-image: url('./spritesheet.png');
         background-size: 333px 100%;
         background-color: transparent;
         animation: spinCoin 0.6s steps(6) infinite;
+        transition: all 0.2s ease-out;
+        transform: translate(0);
+        cursor: pointer;
     }
 
     // hover
-    .btn:hover {
-        opacity: 1;
+    .spritesheetBtn:hover {
+        transform: translate(0, -10px);
     }
 
     // selected
     &.disabled.selected {
-        .btn {
+        .spritesheetBtn {
             opacity: 1;
+            transform: translate(0, -15px);
         }
     }
 
     // not selected
     &.disabled {
-        .btn {
+        .spritesheetBtn {
             opacity: 0.4;
+            cursor: pointer;
         }
     }
 

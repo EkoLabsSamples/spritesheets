@@ -1,11 +1,11 @@
 import EkoUIComponents from 'EkoUIComponents';
-import '../scss/spritesheetButton.scss';
+import './SpritesheetButton.scss';
 
 export default class SpritesheetButton extends EkoUIComponents.EkoDecisionButton {
     getContent() {
         return (
-            <button className="btn">
-                <span>{this.props.config.text}</span>
+            <button className="spritesheetBtn">
+                <span>{super.getContent()}</span>
             </button>
         );
     }
